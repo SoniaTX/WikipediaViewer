@@ -1,0 +1,58 @@
+body {
+  background-color: 
+     #204B53;
+}
+h1 {
+  color: #D6D15D;
+}
+
+p {
+  font-size: 18px;
+
+}
+
+.articles {
+
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 40px -10px #000;
+  background-color: black;
+  height: '';
+  overflow: hidden;
+  color: white;
+ 
+}
+
+
+.container-fluid {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 900px;
+  min-width: 240px;
+  margin: auto;
+} 
+
+.bigHr {
+    background-color:  #204B53 !important;
+    color:  #204B53 !important;
+    border: solid 6px  #204B53 !important;
+    height: 12px !important;
+    width: 1500px !important;
+} 
+
+#searchTerm {
+    height:40px;
+    font-size:14pt;
+}
+
+button {
+    height:40px;
+    font-size:14pt;
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
